@@ -1,0 +1,15 @@
+name: PocketPhone
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+softdepend: [Geyser-Spigot, floodgate]
+commands:
+  phone:
+    description: Get or open your pocket phone.
+    usage: /phone
+  tpaccept:
+    description: Accept a pending phone teleport request.
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a pending phone teleport request.
+    usage: /tpdeny
